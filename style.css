@@ -1,0 +1,40 @@
+body {
+  background: #49484f;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.timer {
+  width: 90%;
+  max-width: 600px;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/background.png); */
+    background: black;
+    background-size: cover;
+    background-position:center;
+    text-align:center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px rgba(0,0,0,0.2);
+}
+
+.timer h1{
+    
+    font-weight: 300;
+    margin-top: 60px;
+    font-size: 64px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.button img:nth-child(2){
+    width: 80px ;
+}
